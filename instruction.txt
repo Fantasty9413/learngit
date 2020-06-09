@@ -22,3 +22,9 @@ git restore filename		————放弃工作区的修改，回到暂存区或�
 rm filename 				————删除文件
 git checkout --filename		————从版本库恢复文件到工作区
 git rm filename				————版本库的删除操作，和add相反，也需要commit，也可以从暂存区撤销
+
+git push origin master		————上传master分支，带上-u上传所有分支
+git pull origin master		————从远程仓库下载更新master
+
+git clone git@github.com:xxx/xxx.git		——————从远程仓库克隆
+git remote add origin git@github.com:xxx/xxx.git		————将本地仓库和远程仓库关联
