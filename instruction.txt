@@ -1,4 +1,6 @@
 
+pwd					————显示当前文件夹路径
+
 git add filename	————添加文件至暂存区
 git commit -m “..."	————添加暂存区文件进仓库
 
