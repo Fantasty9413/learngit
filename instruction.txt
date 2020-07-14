@@ -1,7 +1,20 @@
 
 将URL中的.com改为.githistory.xyz可以查看代码history
 
-pwd					————显示当前文件夹路径
+github searching instruction
+in:name xxx (stars:>5000 forks:>3000)
+in:readme xxx
+in:description xxx (language:python)
+
+
+pwd					————显示当前文件夹路径(print working directory)
+reset				————git bash清屏
+
+cd g:				————改变目录(change directory)
+cd g:/xxx			————使用/  当文件名含有空格或者-时，用""将文件名括起
+cd /g/xxx
+cd ..				————向上一级目录，可以加/返回多级目录
+cd ~				————回到home目录
 
 git add filename	————添加文件至暂存区
 git commit -m “..."	————添加暂存区文件进仓库
@@ -10,7 +23,7 @@ git log				————查看历史记录
 git reflog			————查看所有历史（可到未来）
 git log <file>		————查看对应文件的历史（不带<>和“”也行）
 
-git ls-files		————查看仓库里存的文件
+git ls-files		————查看仓库里存的文件(list) ls单独使用可以列出目录下的文件
 git status			————查看暂存区的文件
 cat filename		————打开文件
 
@@ -32,3 +45,5 @@ git pull origin master		————从远程仓库下载更新master
 
 git clone git@github.com:xxx/xxx.git		——————从远程仓库克隆
 git remote add origin git@github.com:xxx/xxx.git		————将本地仓库和远程仓库关联
+
+exit		————退出窗口
