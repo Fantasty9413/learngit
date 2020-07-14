@@ -1,4 +1,6 @@
 
+将URL中的.com改为.githistory.xyz可以查看代码history
+
 pwd					————显示当前文件夹路径
 
 git add filename	————添加文件至暂存区
