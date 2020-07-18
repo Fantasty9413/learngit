@@ -8,6 +8,11 @@ in:description xxx (language:python)
 
 
 pwd					————显示当前文件夹路径(print working directory)
+mv[原文件] [原目录] [目标目录]		————移动文件(move)
+mkdir /xxx/xxxx		————创建目录
+
+git --help			————help
+
 reset				————git bash清屏
 
 cd g:				————改变目录(change directory)
@@ -15,7 +20,7 @@ cd g:/xxx			————使用/  当文件名含有空格或者-时，用""将�
 cd /g/xxx
 cd ..				————向上一级目录，可以加/返回多级目录
 cd ~				————回到home目录
-cd L*				————可以不将文件名打全
+cd L*				————可以不将文件名打全（任何时候需要输入文件名或者目录名时都可以用）
 
 git init			————创建本地仓库
 
@@ -50,3 +55,9 @@ git clone git@github.com:xxx/xxx.git		——————从远程仓库克隆
 git remote add origin git@github.com:xxx/xxx.git		————将本地仓库和远程仓库关联
 
 exit		————退出窗口
+
+git branch					————查看分支
+git branch <name>			————创建分支
+git switch <name>			————切换分支
+git branch -d <name>		————删除分支
+git merge <name>			————合并分支
