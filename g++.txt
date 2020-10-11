@@ -1,0 +1,2 @@
+	g++ -o .\bin\exename 需要链接的程序（如main.cpp）	————编译链接程序
+	exename		————运行程序
