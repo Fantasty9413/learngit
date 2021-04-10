@@ -101,3 +101,11 @@ $$
 
 自动连接：<www.baidu.com>
 
+
+
+13.调整公式字体大小
+
+```
+\tiny \scriptsize \footnotesize \small \normalsize \large \Large \LARGE \huge \Huge
+```
+
