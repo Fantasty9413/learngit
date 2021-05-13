@@ -61,3 +61,11 @@ git branch <name>			————创建分支
 git switch <name>			————切换分支
 git branch -d <name>		————删除分支
 git merge <name>			————合并分支
+
+git rm <file>				————将文件从暂存区和工作区中删除
+git rm -f <file>			————强制删除（对于已经修改过然后放在暂存区的文件）
+git add -u					————添加处理已修改或者已删除的文件，但是不会处理新建的文件
+
+git rm --cached <file>		————从暂存区删除，任然保留在工作目录中（即只从跟踪清单中删除）
+
+del file <file>				————命令行的删除命令，只从工作目录中删除，保存其在暂存区的存档
