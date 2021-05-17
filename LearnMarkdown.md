@@ -109,3 +109,9 @@ $$
 \tiny \scriptsize \footnotesize \small \normalsize \large \Large \LARGE \huge \Huge
 ```
 
+
+
+14.删除线 双波浪号~~
+
+~~删除~~
+
