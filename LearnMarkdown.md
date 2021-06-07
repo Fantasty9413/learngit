@@ -115,3 +115,11 @@ $$
 
 ~~删除~~
 
+
+
+15.文字或者图片居中，使用html语言
+
+<div align=center>
+    this is a picture.
+</div>
+
