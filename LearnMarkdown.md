@@ -30,9 +30,11 @@
 
 
 
-6.表情：冒号加英文
+6.表情：双冒号加英文
 
 :horse:
+
+[markdown的Emoji表情对应表]([markdown表情大全_Yoke-CSDN博客_markdown表情](https://blog.csdn.net/qq_40896997/article/details/106551767))
 
 
 
