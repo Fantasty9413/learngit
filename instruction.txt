@@ -69,3 +69,5 @@ git add -u					————添加处理已修改或者已删除的文件，但�
 git rm --cached <file>		————从暂存区删除，任然保留在工作目录中（即只从跟踪清单中删除）
 
 del file <file>				————命令行的删除命令，只从工作目录中删除，保存其在暂存区的存档
+
+git learning： https://pcottle.github.io/learnGitBranching/
