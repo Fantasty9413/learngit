@@ -70,4 +70,6 @@ git rm --cached <file>		————从暂存区删除，任然保留在工作�
 
 del file <file>				————命令行的删除命令，只从工作目录中删除，保存其在暂存区的存档
 
+git mv [file] [newfile]			————更改文件夹名称
+
 git learning： https://pcottle.github.io/learnGitBranching/
